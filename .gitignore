@@ -1,15 +1,80 @@
-*.iml
+# Ignore the local configuration files
+/local.properties
+/.idea/
+/*.iml
+.gradle
+/captures/
+
+# Ignore the build directories
+/build/
+/app/build/
+
+# Ignore Kotlin and Java classes
+/**/*.class
+/**/*.jar
+/**/*.war
+/**/*.ear
+
+# Ignore IntelliJ IDEA and Android Studio settings
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/tasks.xml
+/.idea/copyright
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/vcs.xml
+/.idea/jsLinters
+/.idea/modules.xml
+/.idea/.name
+/.idea/codeStyles/Project.xml
+/.idea/httpRequests
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/runConfigurations
+/.idea/uiDesigner.xml
+/.idea/fileTemplates
+/.idea/sqlDataSources.xml
+/.idea/dataSources
+/.idea/dataSources.local.xml
+/.idea/dataSources.ids
+/.idea/dataSources.names
+/.idea/dataSources.ids
+/.idea/scopes
+/.idea/module_config
+
+# Ignore virtual machine crash logs
+hs_err_pid*
+
+# Ignore Android Studio Navigation Editor files
+.navigation/
+
+# Ignore generated files
+gen/
+out/
+bin/
+target/
+
+# Ignore API key file
+com/example/weatherapp/api/Constant.kt
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Linux and Windows system files
+*.swp
+*~
+
+# Ignore miscellaneous
+.idea
+*.log
 .gradle
 /local.properties
-/.idea/caches
 /.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+/intermediates
+/.gradle
+.android
+.merged_bin
